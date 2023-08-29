@@ -1,0 +1,790 @@
+ * {
+     font-family: sans-serif;
+
+ }
+
+ body {
+     margin: 0;
+ }
+
+ .navbar {
+     height: 75px;
+     width: 100%;
+     display: flex;
+     cursor: pointer;
+
+
+
+ }
+
+ .left {
+     width: 15%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ .middle {
+     width: 65%;
+     height: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+
+ .right {
+     width: 20%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ #leftPaytmImg {
+     width: 80%;
+
+ }
+
+ .sub-links {
+     font-size: 17px;
+     font-weight: bold;
+     font-family: sans-serif;
+     color: rgb(12, 12, 12);
+ }
+
+ .account {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #00baf2;
+     padding: 2px 2px 2px 20px;
+     border-radius: 20px;
+     color: white;
+     font-weight: bold;
+     font-family: sans-serif;
+
+ }
+
+ .avtar {
+     margin-left: 10px;
+ }
+
+ .kyc {
+     height: 50px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #f6f6f6;
+     font-size: 17px;
+     box-shadow: rgba(161, 161, 190, 0.25) 0px 30px 60px -12px inset, rgba(145, 141, 141, 0.3) 0px 18px 36px -18px inset;
+
+
+ }
+
+ .wallet {
+     margin-right: 5px;
+     cursor: pointer;
+
+ }
+
+
+
+ .section-2 {
+     width: 100%;
+     height: 450px;
+     display: flex;
+ }
+
+ .left-section {
+     width: 50%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .right-section {
+     width: 50%;
+     height: 100%;
+     display: flex;
+     justify-content: flex-end;
+ }
+
+ .logo {
+     height: 80px;
+     width: 80px;
+ }
+
+ .head {
+     font-size: 55px;
+     font-weight: bold;
+ }
+
+ .para {
+     font-size: 20px;
+     font-weight: 530;
+     width: 450px;
+     line-height: 30px;
+ }
+
+ .btn {
+     background-color: black;
+     color: white;
+     border-radius: 40px;
+     padding: 10px 30px 10px 30px;
+     border: 0px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 30px;
+     cursor: pointer;
+ }
+
+ .btn:hover {
+     background-color: #3b3939;
+
+ }
+
+ svg {
+     margin-left: 15px;
+ }
+
+ .right-logo {
+     height: 100%;
+     width: 528px;
+ }
+
+ .recharge-section {
+     width: 100%;
+     background-color: #00baf2;
+     color: white;
+     margin-top: 90px;
+     font-weight: bold;
+
+
+
+ }
+
+ .inner-section {
+
+     width: 98%;
+     margin: auto;
+ }
+
+ .heading {
+     font-size: 36px;
+
+     padding-top: 70px;
+     margin-left: 55px;
+ }
+
+ .rc-child {
+     display: flex;
+     justify-content: space-around;
+     margin-top: 50px;
+     padding-bottom: 50px;
+ }
+
+ .rc-logo {
+     width: 64px;
+     height: 64px;
+ }
+
+ .inner-div {
+     line-height: 10px;
+ }
+
+ .recharge-section-two {
+     width: 100%;
+     background-color: #0f4a8a;
+     color: white;
+     font-weight: bold;
+     height: 420px;
+
+
+ }
+
+ .seven-box:hover {
+     background-color: rgb(23, 154, 194);
+     cursor: pointer;
+ }
+
+ .seven-box {
+     padding: 20px 30px 20px 30px;
+     border-radius: 20px;
+ }
+
+ .seven-box2:hover {
+     background-color: rgb(12, 60, 133);
+     cursor: pointer;
+ }
+
+ .seven-box2 {
+     padding: 20px 30px 20px 30px;
+     border-radius: 20px;
+ }
+
+ /* //////////////////////////////////////////////////////// */
+
+
+
+ .h11 {
+     color: black;
+     font-weight: bold;
+     font-size: 45px;
+     margin: 120px 0px 40px 140px;
+
+ }
+
+ .section-2-1 {
+     width: 85%;
+     /* height: 450px; */
+     display: flex;
+     margin: auto;
+     border-radius: 13px;
+     padding-top: 7%;
+     background-color: rgb(236, 242, 247);
+
+ }
+
+ .left-section1 {
+     width: 50%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 20px;
+
+ }
+
+ .right-section1 {
+     width: 50%;
+     height: 100%;
+     display: flex;
+     justify-content: flex-end;
+     padding-bottom: 60px;
+
+
+
+ }
+
+ .logo1 {
+     height: 80px;
+     width: 80px;
+ }
+
+ .head1 {
+     font-size: 45px;
+     font-weight: bold;
+     color: black;
+ }
+
+ .para1 {
+     font-size: large;
+     line-height: 30px;
+     color: #383737;
+ }
+
+ svg {
+     margin-left: 15px;
+ }
+
+ .right-logo {
+     height: 100%;
+     width: 528px;
+ }
+
+ .Paytm-Wallet {
+     display: flex;
+     color: #000;
+     gap: 15px;
+ }
+
+ /* ///////////////////////////////////////////////////// */
+
+
+ .section-2-2 {
+     width: 85%;
+     display: flex;
+     margin: 60px 0px 0px 100px;
+     border-radius: 13px;
+     padding-top: 7%;
+     background-color: rgb(236, 242, 247);
+
+ }
+
+ .logo1-1 {
+     height: 77px;
+     width: auto;
+ }
+
+ .btn1 {
+
+     padding: 15px 25px 15px 25px;
+     border-radius: 40px;
+     background-color: #1b095e;
+     color: white;
+     cursor: pointer;
+     border: 0;
+     margin-top: 30px;
+ }
+
+ .btn1:hover {
+
+     background-color: #14b7cc;
+     color: white;
+     cursor: pointer;
+     border: 0;
+ }
+
+ .right-logo1 {
+     margin: auto;
+     width: 443px;
+ }
+
+ /* ///////////////////////////////////////////// */
+ .boss-div {
+     width: 85%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .left-div {
+     height: 90%;
+     width: 43%;
+     margin-top: 70px;
+     padding-left: 40px;
+     border-radius: 20px;
+     background-color: rgb(236, 242, 247);
+     cursor: pointer;
+
+ }
+
+ .right-div {
+     height: auto;
+     width: 48%;
+     margin-top: 70px;
+     border-radius: 20px;
+     background-color: rgb(236, 242, 247);
+     cursor: pointer;
+     padding: 55px 0px 0px 30px;
+ }
+
+ .left-div-img1 {
+     width: auto;
+     height: 77px;
+ }
+
+ .left-div-img2 {
+     width: auto;
+     height: 296px;
+ }
+
+ .right-div-img1 {
+     width: auto;
+     height: 20px;
+ }
+
+ .right-div-img2 {
+     width: auto;
+     height: 296px;
+ }
+
+ /* ////////////////////////////////////////////////////// */
+
+
+
+
+
+ .section-2-3 {
+     width: 100%;
+     display: flex;
+     margin: 100px 0px 0px 0px;
+     padding-top: 7%;
+     background-color: rgb(236, 242, 247);
+
+ }
+
+ .logo1-2 {
+
+     width: 212px;
+     padding: 40px 0px 40px 0px;
+ }
+
+ .btn11 {
+
+     padding: 15px 35px 15px 35px;
+     border-radius: 40px;
+     background-color: #1b095e;
+     color: white;
+     cursor: pointer;
+     border: 0;
+     margin-top: 30px;
+ }
+
+ .btn11:hover {
+
+     background-color: #14b7cc;
+     color: white;
+     cursor: pointer;
+     border: 0;
+ }
+
+ .right-logo11 {
+     margin: auto;
+     width: 483px;
+     padding-top: 70px;
+ }
+
+ .bigh1 {
+     color: #000;
+     font-size: 40px;
+     font-weight: bold;
+ }
+
+
+
+ /* /////////////////////////////////////////////////// */
+ .logo1-3 {
+
+     width: 152px;
+     padding: 40px 0px 40px 0px;
+ }
+
+ .section-2-4 {
+     width: 100%;
+     display: flex;
+     margin: 100px 0px 0px 0px;
+     /* padding-top: 7%; */
+     background-image: url(https://pwebassets.paytm.com/commonwebassets/commonweb/images/home/gray-spike.png);
+     background-repeat: no-repeat;
+     background-size: 120%;
+
+ }
+
+ /* //////////////////////////////////////////////////////// */
+
+
+
+ .section-2-33 {
+     width: 100%;
+     display: flex;
+     margin: 60px 0px 0px 0px;
+     border-radius: 13px;
+     padding-top: 7%;
+
+ }
+
+ .logo1-31 {
+     height: 54px;
+ }
+
+
+ /* ///////////////////////////////////////////////////////// */
+
+
+
+ .logo1-4 {
+
+     width: 152px;
+     /* padding: 40px 0px 40px 0px; */
+     margin-top: 100px;
+ }
+
+ .section-2-5 {
+     width: 100%;
+     display: flex;
+     background-color: rgb(236, 242, 247);
+
+     margin: 100px 0px 0px 0px;
+     /* padding-top: 7%; */
+     background-repeat: no-repeat;
+     background-size: 120%;
+
+ }
+
+ .right-logo111 {
+     margin: auto;
+     width: 433px;
+     padding-top: 70px;
+ }
+
+ /* ///////////////////////////////////////////////////////////////////// */
+ .head11 {
+     color: #000;
+     font-size: 50px;
+     font-weight: bold;
+     margin: 70px 0px -1px 80px;
+ }
+
+ .right-logo11 {
+     width: 493px;
+     padding-left: 100%;
+ }
+
+ .left-section1a {
+     width: 50%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 90px;
+
+ }
+
+ /* ///////////////////////////////////////////////////////// */
+
+ .head111 {
+     color: #000;
+     font-size: 40px;
+     font-weight: bold;
+     margin: 70px 0px -1px 90px;
+ }
+
+ .master-div {
+     margin: auto;
+     height: auto;
+     width: 95%;
+     display: flex;
+     justify-content: space-around;
+     color: #000;
+     padding-top: 90px;
+ }
+
+ .ms-child {
+     width: 23%;
+     height: auto;
+     padding-left: 80px;
+ }
+
+ .small-img {
+     width: 100%;
+ }
+
+ .h2-small {
+     padding-top: 20px;
+     font-size: 30px;
+ }
+
+ .p-small {
+     font-size: 20px;
+     margin-top: 40px;
+     font-weight: normal;
+     color: #141414;
+ }
+
+ .pointer {
+     cursor: pointer;
+ }
+
+ /* ///////////////////////////////////// */
+
+ .scroll-box-container {
+     width: 100%;
+     overflow-x: auto;
+     white-space: nowrap;
+     text-align: center;
+     height: 103%;
+
+
+ }
+
+ .scroll-box {
+     display: inline-block;
+     width: 155px;
+     height: 270px;
+     background-color: #00baf2;
+     margin: 5px;
+     padding: 5px;
+     border-radius: 10px;
+ }
+
+ .scr-boss {
+     height: 300px;
+     width: 85%;
+     display: flex;
+     margin: auto;
+     padding-top: 200px;
+
+ }
+
+ .src-left {
+     height: 300px;
+     width: 400px;
+     color: #000;
+ }
+
+ .logo-scr {
+     width: 152px;
+     padding-bottom: 50px;
+ }
+
+ .low {
+     color: #3d3c3c;
+ }
+
+ .btn99 {
+
+     border-radius: 40px;
+     color: #1b095e;
+     cursor: pointer;
+     border: 0;
+     margin-top: 50px;
+     font-size: larger;
+ }
+
+ .btn99:hover {
+
+     color: #14b7cc;
+     cursor: pointer;
+     border: 0;
+ }
+
+ .scr-img {
+     width: 155px;
+     height: 158px;
+ }
+
+ .scr-img:hover {
+     transition: .3s;
+     transform: scale(1.1);
+     border: 1px solid rgb(20, 211, 224);
+     border-radius: 10px;
+     cursor: pointer;
+ }
+
+ .h22 {
+     padding-top: 10px;
+ }
+
+ /* ///////////////////////////////////////// */
+
+ .scroll-box1 {
+     display: inline-block;
+     width: 155px;
+     height: 83%;
+     background-color: #00baf2;
+     margin: 5px;
+     padding: 5px;
+     border-radius: 10px;
+     text-align: left;
+     line-height: 25px;
+     font-weight: bold;
+ }
+
+
+ .scr-boss {
+     height: 300px;
+     width: 85%;
+     display: flex;
+     margin: auto;
+     padding-top: 200px;
+
+ }
+
+ .src-left {
+     height: 300px;
+     width: 400px;
+     color: #000;
+ }
+
+ .logo-scr {
+     width: 152px;
+     padding-bottom: 50px;
+ }
+
+ .low {
+     color: #3d3c3c;
+ }
+
+ .btn99 {
+
+     border-radius: 40px;
+     color: #14b7cc;
+
+     cursor: pointer;
+     border: 0;
+     margin-top: 50px;
+     font-size: larger;
+ }
+
+ .btn99:hover {
+
+     color: #1b095e;
+     cursor: pointer;
+     border: 0;
+ }
+
+ .scr-img1 {
+     width: 72px;
+     height: 72px;
+     border-radius: 100%;
+     margin: 25px 0px 20px 0px;
+ }
+
+ /* //////////////////////////////////// */
+
+ .foot-boss {
+
+     width: 100%;
+     height: 600px;
+     background-color: rgb(245, 245, 245);
+     margin-top: 200px;
+     color: #000;
+     border: 1px solid rgb(245, 245, 245);
+ }
+
+ .frist-big-foot {
+     width: 100%;
+     height: 100px;
+     margin-top: 130px;
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 0px;
+
+
+ }
+
+ .left-small-foot {
+     height: 100%;
+     width: 50%;
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .right-small-foot {
+     height: 100%;
+     width: 20%;
+     display: flex;
+     justify-content: space-around;
+     margin-right: 30px;
+ }
+
+ .foot-img {
+     width: 170px;
+     cursor: pointer;
+     margin: auto;
+ }
+
+ .foot-img-right {
+     cursor: pointer;
+     margin: auto;
+
+ }
+
+ .foot-h2 {
+     color: #000;
+     padding-left: 20px;
+ }
+
+ .limit {
+     margin: auto;
+     height: auto;
+     width: 95%;
+     color: #3b3939;
+     cursor: pointer;
+ }
